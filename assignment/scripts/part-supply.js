@@ -64,7 +64,7 @@ for ( amount of supplyChanges) {
   if (amount > 0){
     console.log(`Added ${amount} parts.`);
 //    console.log(supplyChanges[i]);
-}  else if (amount === 0) {
+}  else if (amount == 0) {
     console.log('No Change.');
 //    console.log(supplyChanges[i]);
   } else  {
