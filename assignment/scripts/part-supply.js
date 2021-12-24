@@ -58,7 +58,7 @@ console.log('---  Stretch Goals  ---');
 console.log('7. Showing supplyChanges with "for of" loop');
 console.log(supplyChanges);
 
-for ( amount of supplyChanges) {
+for ( let amount of supplyChanges) {
   console.log(amount);
 
   if (amount > 0){
@@ -77,7 +77,7 @@ for ( amount of supplyChanges) {
 //    adding up all the numbers in the 'supplyChanges' array.
 console.log('8. Total supplies available is:');
 let total = 0;
-for ( amount of supplyChanges) {
+for ( let amount of supplyChanges) {
   total+= amount;
   // console.log(total);
 }
